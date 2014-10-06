@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>MAD/KW</title>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/usability.js"></script>
+
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" /> -->
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/usability.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step slide" data-x="0" data-y="0" data-z="0">
+        <div class="center maintitle"><p>MAD<span class="bright-pink slash">/</span>KW</p></div>
+        <div class="center footnote">(mæd kaʊ)</div>
+        <div class="sub-title center">Audio - Musicians - Technology</div>
+        <div class="sub-title center date">September 2014</div>
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div id="norainslide" class="step slide" data-x="0" data-y="0" data-z="1500">
+        <video id="norain" class="norain" width="800" height="450" autoplay="true" preload="auto">
+            <source src="vid/norain.m4v" type="video/mp4"/>
+        </video>
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step" data-x="0" data-y="-1000" data-z="30000">
+        <div class="title center bright-pink slide-title">Questions?</div>
+    </div>
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>

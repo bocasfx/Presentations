@@ -1,0 +1,42 @@
+Too often, systems are designed with a focus on business goals, fancy features, and the technological capabilities of hardware or software tools. All of these approaches to system design omit the most important part of the process – the end user.
+
+- What is Usability?
+
+Usability is a measure of the interactive user experience associated with a user interface, such a website or software application. A user-friendly interface design is easy-to-learn, supports users’ tasks and goals efficiently and effectively, and is satisfying and engaging to use.
+
+- What makes a website or piece of software usable?
+
+Usability depends on a number of factors including how well the functionality fits user needs, how well the flow through the application fits user tasks, and how well the response of the application fits user expectations.
+
+
+- Why is Usability Important?
+
+From the user’s perspective, usability is important because it can make the difference between performing a task accurately and completely or not, and enjoying the process or being frustrated. From the developer’s perspective, usability is important because it can mean the difference between the success or failure of a system. From a management point of view, software with poor usability can reduce the productivity of the workforce to a level of performance worse than without the system. In all cases, lack of usability can cost time and effort and can greatly determine the success or failure of a system. Given a choice, people tend to buy systems that are more user-friendly.
+
+- How Do You Achieve a High Level of Usability?
+
+The key principle for maximizing usability is to employ iterative design, which progressively refines the design through evaluation from the early stages of design. The evaluation steps enable the designers and developers to incorporate user and client feedback until the system reaches an acceptable level of usability.
+
+The preferred method for ensuring usability is to test actual users on a working system.
+
+- Heuristic Evaluation
+
+	1. Visibility of system status: Provide users timely and appropriate feedback about the system’s status
+
+	2. Match between system and the real world: Speak the user’s language using terms and concepts that are familiar to the intended audience. Information should be organized naturally and logically based on what users are accustomed to seeing in the real world.
+
+	3. User control and freedom: Users should experience perceived control as they interact with the system.
+	
+	4. Consistency and standards: User controls, icons, terminology, and error messaging should be consistent throughout the interface. Where appropriate, industry and platform standards should be applied.
+
+	5. Error prevention: Prevent user errors by user-testing the interface to identify problem areas for typical users and re-designing it to more clearly communicate the consequences of users’ actions
+
+	6. Recognition rather than recall: Reduce the memory load of users by presenting familiar icons, actions, and options whenever possible. Do not require the user to recall information from one screen to another.
+
+	7. Flexibility and efficiency of use: Novice and expert users use systems differently. The system should be easy and efficient to use by novices and experts alike.
+
+	8. Aesthetic and minimalist design: Avoid displaying excessive information and design elements, as they will visually compete with more relevant information on the screen.
+
+	9. Help users recognize, diagnose, and recover from errors: Present error messages that give users instructions about how to recover from an error, rather than cryptic codes that users do not understand.
+
+	10. Help and documentation: It is usually best to design an interface to be so simple to use that Help and Documentation is unnecessary; however, there may be times when it is necessary to access Help. In those cases, Help documentation and user support should be easy to search, and instructions should be easy to follow. It may be useful to provide video tutorials and examples for complex procedures or controls that are hard to locate.

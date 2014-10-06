@@ -1,0 +1,528 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.maintitle {
+    margin-top: 220px;
+    font-size: 2.5em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.code {
+    font-size: 0.5em;
+    font-family: "courier";
+    margin-left: 50px;
+}
+
+.codebig {
+    font-size: 1em;
+    font-family: "courier";
+}
+
+.codemed {
+    font-size: 0.6em;
+    font-family: "courier";
+    line-height: 1.5;
+    margin-left: 75px;
+    margin-top: 80px;
+}
+
+.deploy-red {
+    color: #aa0000;
+}
+
+.slide-title {
+    font-size: 1.5em;
+}
+
+.sub-title {
+    font-size: 0.7em;
+}
+
+.fafont {
+    font-size: 2em;
+}
+
+.footnote {
+    font-size: 1em;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.codesection {
+    margin-top: 120px;
+    margin-left: 100px;
+    font-size: 0.8em;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.impress-enabled .substep {
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition:    all 0.5s;
+  -ms-transition:     all 0.5s;
+  -o-transition:      all 0.5s;
+  transition:         all 0.5s;  
+}
+
+.impress-enabled .substep.active {
+  opacity: 1;
+}
+
+.impress-enabled .substep.present { 
+  /*color: rgb(100, 135, 195);*/
+}
+
+.valign {
+    vertical-align: middle;
+}
+
+.bright-pink {
+    color: #ff3399;
+}
+
+.light-gray {
+    color: #cecece;
+}
+
+.slash {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills {
+    font-size: 1.7em;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.presentation {
+    font-size: 2em;
+    margin-top: 200px;
+}
+
+.prestable {
+    margin: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tape-logo {
+    background: url(../img/tape.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+    margin-top: 0;
+}
+
+.logos {
+    margin-top: -15px;
+}
+
+.logo-table {
+    margin-top: 200px;
+}
+
+.ampersand {
+    font-size: 2.5em;
+}
+
+.tape-features {
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.cough1 {
+    font-size: 2em;
+    margin-top: 100px;
+}
+
+.cough2 {
+    font-size: 3em;
+}
+
+.live {
+    background: url(../img/live.png);
+    background-repeat: no-repeat;
+    width: 226px;
+    height: 222px;
+    margin-top: 100px;
+}
+
+.tape-video {
+    margin-top: 7px;
+}
+
+.achievements {
+    -ms-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -170px;
+    top: 300px;
+    font-size: 2.0em;
+}
+
+.improvement {
+    font-size: 2em;
+    margin-top: 170px;
+}
+
+.projects {
+    -ms-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    top: 300px;
+    font-size: 2.0em;
+}
+
+.projects-list {
+    margin-left: 100px;
+    margin-top: 120px;
+}
+
+.karl {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(../img/karl.jpg) no-repeat;
+}
+
+.pierre {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(../img/pierre.jpg) no-repeat;
+}
+
+.composers {
+    margin-top: 0;
+}
+
+.composers-table {
+    width: 80%;
+    margin-left: 150px;
+}
+
+.composers-title {
+    -ms-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -100px;
+    top: 300px;
+    font-size: 2.0em;
+}
+
+.empty-row {
+    height: 100px;
+}
+
+.empty-row-2 {
+    height: 100px;
+}
+
+.date {
+    font-size: 0.5em;
+    margin-top: -20px;
+}
+
+.norain {
+    margin-left: -10px;
+    margin-top: 60px;
+}
+
+.gui {
+    position: absolute;
+    left: 420px;
+    margin-top: 45px;
+}
+
+.load-sample {
+    
+    top: 20px;
+}
+
+.progress-indicator {
+    top: 60px;
+}
+
+.speed-control {
+    top: 110px;
+}
+
+.volume-control {
+    top: 160px;
+}
+
+.pan {
+    top: 210px;
+}
+
+.re-trigger {
+    top: 260px;
+}
+
+.track-play-pause {
+    top: 310px;
+}
+
+.record-mute-solo {
+    top: 375px;
+}
+
+.general-play-pause {
+    top: 440px;
+}
+
+.stop {
+    top: 490px;
+}
+
+.sequencer-mode {
+    top: 530px;
+}
+
+.gui-description {
+    padding: 0;
+    margin: 0;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+.user-interface {
+    -ms-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -160px;
+    top: 300px;
+    font-size: 2.0em;
+}
+
+.right-bracket {
+    font-size: 3em;
+    margin-left: 13px;
+}
+
+.rms {
+    margin-left: 70px;
+    top: 385px;
+}
+
+.tech-specs {
+    -ms-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -120px;
+    top: 300px;
+    font-size: 2.0em;
+}
+
+.tech-specs-list {
+    margin-left: 75px;
+    margin-top: 60px;
+}
+
+.tech-spec {
+    margin-bottom: 50px;
+}
+
+.lessons-learned {
+    -ms-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -200px;
+    top: 300px;
+    font-size: 2.0em;
+}
+
+.q-logo {
+    background: url(../img/q.png);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin-top: 0;
+    margin-bottom: 65px;
+}
+
+.nodes {
+    -ms-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -65px;
+    top: 300px;
+    font-size: 2.0em;
+}
+
+.streams {
+    -ms-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -95px;
+    top: 300px;
+    font-size: 2.0em;
+}
+
+.nodes-and-particles {
+    -ms-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -275px;
+    top: 300px;
+    font-size: 2.0em;
+}
+
+.nnp-table {
+    margin-left: 275px;
+    margin-top: 200px;
+}
+
+.nodes-list {
+    margin-top: 120px;
+    margin-left: 180px;
+}
+
+.streams-list {
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+.q-video {
+    margin-top: 35px;
+}
+
+.q-lessons-learned-list {
+    margin-left: 130px;
+    margin-top: 100px;
+}
+
+.q-tech-specs-list {
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.q-lessons-learned {
+    -ms-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -200px;
+    top: 300px;
+    font-size: 2.0em;
+}
+
+.future-work {
+    -ms-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -150px;
+    top: 300px;
+    font-size: 2.0em;
+}
+
+.future-work-list {
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.sublist {
+    margin-left: 50px;
+    font-size: 0.9em;
+    margin-bottom: -15px
+}
+
+.tape-list {
+    margin-left: 100px;
+}
+
+.lessons-learned-list {
+    margin-left: 150px;
+    margin-top: 120px;
+}
+
+.q-description {
+    margin-left: 60px;
+}
+
+.stream-img {
+    width: 289px;
+    height: 191px;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+
+.contact {
+    -ms-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -100px;
+    top: 300px;
+    font-size: 2.0em;
+}
+
+.contact-item {
+    margin-bottom: 50px;
+}
+.contact-list {
+    margin-left: 125px;
+    margin-top: 60px;
+}
+
+.nnp-row {
+    margin-bottom: 300px;
+}
