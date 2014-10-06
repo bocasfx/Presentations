@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Agfa Deploy and SSL</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step slide bigbg" data-x="0" data-y="0" data-z="0">
+        <div class="center maintitle">
+            <p>Agfa Deploy and SSL Certificates</p>
+        </div>
+        <div class="sub-title center">Rodolfo Palacios - September 2014</div>
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step slide smallbg" data-x="0" data-y="0" data-z="1500">
+        <div class="title center deploy-red slide-title">Why SSL?</div>
+        <table class="whyssl">
+            <tr>
+                <td><i class="fa fa-laptop fa-2x"></i></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><i class="fa fa-laptop fa-2x"></i></td>
+                <td>
+                    <i class="fa fa-arrow-left "/></i>
+                    <i class="fa fa-minus "></i>
+                    <i class="fa fa-minus "></i>
+                    <i class="fa fa-minus "></i>
+                    <i class="fa fa-arrow-right "></i>
+                </td>
+                <td><i class="fa fa-cloud fa-2x"></i></td>
+            </tr>
+            <tr>
+                <td><i class="fa fa-laptop fa-2x"></i></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <i class="fa fa-user fa-2x substep mim deploy-red"></i>
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step slide smallbg" data-x="0" data-y="0" data-z="3000">
+        <div class="title center deploy-red slide-title">I'll Make Him an Offer He Can't Refuse</div>
+        <img class="godfather" src="img/godfather.png"/>
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step slide smallbg" data-x="0" data-y="0" data-z="4500">
+        <div class="title center deploy-red slide-title">The Godfather vs SSL</div>
+        <table class="mobstertable">
+            <tr>
+                <td class="vito"></td>
+                <td class="valign"><i class="fa fa-arrow-right fa-2x"></i></td>
+                <td class="valign align-left">Certificate Authority</td>
+            </tr>
+            <tr><td colspan=3>&nbsp;</td></tr>
+            <tr>
+                <td class="virgil"></td>
+                <td class="valign"><i class="fa fa-arrow-right fa-2x"></i></td>
+                <td class="valign align-left">Agfa Deploy Enterprise</td>
+            </tr>
+            <tr><td colspan=3>&nbsp;</td></tr>
+            <tr>
+                <td class="mobsters"></td>
+                <td class="valign"><i class="fa fa-arrow-right fa-2x"></i></td>
+                <td class="valign align-left">Agfa Deploy Core</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step slide smallbg" data-x="0" data-y="0" data-z="6000">
+        <div class="title center deploy-red slide-title">A Few Definitions</div>
+        <p class="definition"><span class="bold">Certificate Authority:</span> A trusted third party that is trusted by both the subject (owner) of the certificate and the party relying upon the certificate.</p>
+        <p class="definition"><span class="bold">SSL Certificate:</span> An electronic document used to prove ownership of a public key.</p>
+        <p class="definition"><span class="bold">Certificate Signing Request:</span> A message sent from an applicant to a certificate authority in order to apply for a digital identity certificate.</p>
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step slide smallbg" data-x="0" data-y="0" data-z="7500">
+        <div class="title center deploy-red slide-title">More Definitions</div>
+        <div class="def2">
+            <p class="definition"><span class="bold">HTTPS:</span> A communications protocol for secure communication over a computer network.</p>
+            <p class="definition"><span class="bold">SSL/TLS:</span> Cryptographic protocols designed to provide communication security over the Internet.</p>
+        </div>
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step slide" data-x="0" data-y="0" data-z="9000">
+        <div class="title center deploy-red slide-title">The SSL Ring of Trust</div>
+        <img class="trustimg" src="img/trust.png" width="775px"/>
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step slide smallbg" data-x="0" data-y="0" data-z="10500">
+        <div class="title center deploy-red slide-title">Three Steps to SSL Happiness</div>
+        <ol class="ca-list">
+            <li class="small-list">Create a Certificate Authority Root.</li>
+                <div class="code">openssl genrsa -des3 -out ca.key 2048</div>
+                <div class="code">openssl req -new -x509 -days 365 -key ca.key -out ca.crt</div>
+            <li class="small-list">Create AD Enterprise's key and Certificate Sign Request.</li>
+                <div class="code">openssl -des3 -out enterprise.key 2048</div>
+                <div class="code">openssl req -new -key enterprise.key -out enterprise.csr</div>
+            <li class="small-list">Sign AD Enterprise's certificate using the CA's private key.</li>
+                <div class="code">openssl x509 -req -days 365 -in enterprise.csr -CA ca.crt -CAkey ca.key -set_serial 01 -out enterprise.crt</div>
+        </ol>
+    </div>
+
+     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+     <div class="step slide smallbg" data-x="0" data-y="0" data-z="12000">
+        <div class="title center deploy-red slide-title">SSL Certificates for Development Enterprise Servers</div>
+        <ol class="ca-list">
+            <li>Generate a Certificate Authority, Certificate Sign Request and SSL certificates.</li>
+            <li>Install the SSL certificates on the Development Enterprise Server</li>
+            <li>Use <span class="bold">ad-enterprise-protocol-manager</span> to enable HTTPS configuration in nginx.</li>
+            <li>On the Agfa Deploy installation go to <span class="codebig">/agfa/deploy/app/version/certificates</span>.</li>
+            <li>Append the contents of the newly generated <span class="bold">ca.crt</span> file.</li>
+            <li>Restart Agfa Deploy's service.</li>
+        </ol>
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step slide smallbg" data-x="0" data-y="0" data-z="13500">
+        <div class="title center deploy-red slide-title">Nginx Configuration</div>
+        <div class="codesection">
+            <div class="codebig">...</div>
+            <div class="codebig"># server</div>
+            <div class="codebig">listen 443;</div>
+            <div class="codebig">ssl on;</div>
+            <div class="codebig">ssl_certificate /path/to/enterprise.crt;</div>
+            <div class="codebig">ssl_certificate_key /path/to/enterprise.key;</div>
+            <div class="codebig">...</div>
+        </div>
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step slide smallbg" data-x="0" data-y="0" data-z="15000">
+        <div class="title center deploy-red slide-title">Using HTTPS With Spearfish</div>
+        <div class="codemed">
+            set _headers [list "Authorization" "Basic c21tczohc21hcnQ="]</br>
+            set _caCert "/path/to/ca.crt"</br>
+            set server "https://enterprise_server.agfa/some/url/path"</br>
+            set query [list some query]</br>
+            set client [::sas::http::client $server -query $query -method GET \</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;-followredirects 10 -headers $_headers -ca $_caCert]</br>
+            try {</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;$client wait</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;if { [$client failed] } {</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error [$client error]</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;}</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;set response [::sas::lib::json::json2dict [$client data]]</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;set statusCode [$client statusCode]</br>
+            }</br>
+            ...
+        </div>
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step slide smallbg" data-x="0" data-y="0" data-z="16500">
+        <div class="title center deploy-red slide-title">Certs and Keys</div>
+        <table class="certsandkeys">
+            <tr>
+                <td><span class="fafont"/>CA</span></td>
+                <td><span class="fafont"/>=</span></td>
+                <td class="align-left"><i class="fa fa-file-o fa-2x deploy-red"></i><span class="fafont">+</span><i class="fa fa-key fa-3x deploy-red"></i></td>
+            </tr>
+            <tr>
+                <td><span class="fafont"/>ADE</span></td>
+                <td><span class="fafont"/>=</span></td>
+                <td class="align-left"><i class="fa fa-file fa-2x"></i><span class="fafont">+</span><i class="fa fa-key fa-3x"></i></td>
+            </tr>
+            <tr>
+                <td><span class="fafont"/>ADC</span></td>
+                <td><span class="fafont"/>=</span></td>
+                <td class="align-left">
+                    <i class="fa fa-file-o fa-2x deploy-red"></i>
+                    <span class="fafont">+</span>
+                    <i class="fa fa-file-o fa-2x blue"></i>
+                    <span class="fafont">+&nbsp;...</span>
+                </td>
+            </tr>
+        </table>    
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step slide smallbg" data-x="0" data-y="0" data-z="18000">
+        <div class="title center deploy-red slide-title">More Information</div>
+        <div class="center link"><a href="http://wikihealthcare.agfa.net/x/ji9OE" target="_blank">http://wikihealthcare.agfa.net/x/ji9OE</a></div>
+        
+    </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div class="step" data-x="0" data-y="-1000" data-z="19500">
+        <div class="title center deploy-red slide-title">Questions?</div>
+    </div>
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
